@@ -1,0 +1,101 @@
+[
+  {
+    "_id": "e51e7960-d513-40c5-b78a-20e11157222f",
+    "colId": "55b80cec-2b79-4340-a019-c0d0026b1849",
+    "containerId": "",
+    "name": "Author",
+    "url": "http://127.0.0.1:8000/api/v1/books/2",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-04-02T19:54:38.421Z",
+    "modified": "2023-04-03T00:55:37.070Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      },
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiMTc2ODhmNjE5ZGFjYWIxMDRmYjdjNDBlNTI0ZDE5NTk1Yzg3NjI1Mjc1MWU3OTUzYWNiYmMzMGEyNzdiZjQ1YjlmOTQzN2I1MzE2NGMxNWMiLCJpYXQiOjE2ODA0NzUyMTkuODYwMjgxLCJuYmYiOjE2ODA0NzUyMTkuODYwMjg2LCJleHAiOjE3MTIwOTc2MTkuODQ2ODYxLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Em-5vM5tG_y-a4NaoEmflwhuVCjSNncZvn4Pmkyv5arxvyc5rS-TM5C98U8ZqyrvD6Sd7ioa5qjVq0_Jnp6vv1hn0ljX1kXjw_RsN-VuibloVIaAoFkExRGnlFkdmDrtZC3kjEnjA7b1sE6suPtxZOgJZbxTVUrcjg1cxGs3BsH79yYooRKDYfFOcK0KJ_K9khpNZQADOiCbDo9lVCV24aQgxCmf14F5HrSx0-US97PypgRO8FfAFSwd-Y0cLj3E-knHz9miIM28iC0-pbr5YuIZHCx3WftDIUDeyO4lftJ2bd-K-m38HA_QAZwXYF_9R2f8oF3KmguzDK3TDr9wxG2SCfqO8W6xBwAlYZ-332lwqD5ozBkiy-twg-1BKnpPF8m3Lfc2sAKSTB_lhBL7_NcVpuHwsmYg3ZsR_U_IK7CXWOQvv19IsBrcx-HovRKEtQlXPc2tyKdcTid9J9SWQrc8QDPQaMSg6SPeR5HYW5gRiI3FwJQm78X4Xo6RxwjACaI1cqQS95MbLxRsIw6X7vImkLyEcF3VoHOsID97ZpAIR3csxrabUtAPv1CkBBOJWEuu6tzSnKN9821JSes4Hfo3Nrcm6uKtlt3FY7atLeWODOsr72Ser3UKOf4WpgiiT5wuRHmgZCeqGuU41iWv4U6j7C45B4CVtG_uMaq7nks"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6213166b-56dc-457d-98b6-4143659a3824",
+    "colId": "55b80cec-2b79-4340-a019-c0d0026b1849",
+    "containerId": "",
+    "name": "Oauth token",
+    "url": "http://127.0.0.1:8000/oauth/token",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-04-02T19:55:13.139Z",
+    "modified": "2023-04-02T22:33:43.389Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "grant_type",
+          "value": "password"
+        },
+        {
+          "name": "client_id",
+          "value": "2"
+        },
+        {
+          "name": "client_secret",
+          "value": "hoy6ctmpr7HJinTRBbEBuKtxWeMnqaQobI58Lqct"
+        },
+        {
+          "name": "username",
+          "value": "info@darynazar.com"
+        },
+        {
+          "name": "password",
+          "value": "nahuel1234"
+        },
+        {
+          "name": "scope",
+          "value": ""
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "a1373c09-4bbd-4835-a888-88016c0d6c78",
+    "colId": "55b80cec-2b79-4340-a019-c0d0026b1849",
+    "containerId": "",
+    "name": "User",
+    "url": "http://127.0.0.1:8000/api/v1/user",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2023-04-02T19:57:26.468Z",
+    "modified": "2023-04-02T20:22:44.324Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      },
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIyIiwianRpIjoiZDRhNjRiYzIxNWQwNWRiMDJjMzg4ODlkNWMxN2JkN2E5MTE5MjA5NDgzOWY3NjA2NzU0NmMxN2I4ODk5YjA5MTM4NjhjNDk5ZDQ5MTc2MGUiLCJpYXQiOjE2ODA0NjY5MzcuOTI2MjM5LCJuYmYiOjE2ODA0NjY5MzcuOTI2MjQ5LCJleHAiOjE3MTIwODkzMzcuOTA5NDU2LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.oUvLpAvvlDyC2hrThAsnyuBAuq6Kh4lkCHPU_9Y5IQg1rDA8jR30zaxVf8pjplrRJFPeeRXxPQO71jgIIB67nBnWy7y4vOOrOHOgr2Y-9kc1Cx2NMI613Vb8RCO7du30eXxSWo3SLMFzBM04bc_UOA73Ej-8mXAIKsIm4u3gnfTMcIGhV4C0AGZNtzDv5SMX0K_fjbloXqRm1fpv3TA-IwNIWM1qhRQDV6gq_JOZpBAyDpRey0bJ6uR3uRJED9-gsdLiyxW0ylNFqtOXy0ZTcTmiP_GfoocLsDUrb5MJ30SE4vSATtYcgCalHpAq5sPgItdZgacSozH3eGlTT_zeu2pV1mZ14QvUX-RngnjecSEW6gFw5bWeAWFcxg2bois95MkDK3QlFLMFV5tfkfX4pBLzNGnpgSBsznsYssU-p1vU1A0MolZLB_7UzB-wSl57MZVsEkWBtyqBnZ7SM1R9RFCR7gBDNWauwQFRnPOeuZvL3Ftcr1551F0Td-EIT36BJG7azECdAdZJXSZav8-kT3nIKpy_QgJA9LRvoPD0M3L4fky8Kku2nfo5LeXuEetzkBdlvcrj65cflnVcIQC2kdz2Q6yIBfJIhi5DLlYMgJPkbg89NxVtU090oniC-pRUsGp5z0WS71yO03bpcbVGQdzvCm1NTsXMbcY_zxWa6lE"
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "tests": []
+  }
+]
